@@ -12,9 +12,9 @@ def check_alert(domain: str, days_left: int, hours_left: float, token: str, chat
     elif days_left <= 3:
         send_telegram(domain, days_left, token, chat_id)
         alert("3-day warning")
-    elif days_left <= 7:
+    elif days_left <= 62:
         send_telegram(domain, days_left, token, chat_id)
-        alert("7-day warning")
+        alert("62-day warning")
 
 
 def check_ssl(domain: str, token: str, chat_id: str) -> None:
