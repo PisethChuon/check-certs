@@ -12,10 +12,10 @@ def send_telegram(domain: str, days_left: int, expiry_label: str, token: str, ch
 
     try:
         message = (
-            f"SSL Expiring Soon\n"
+            f"SSL Certificate Alert\n"
             f"Domain: {domain}\n"
-            f"Expires on: {expiry_label}\n"
-            f"Expires in: {days_left} days"
+            f"Expires: {expiry_label}\n"
+            f"Time left: {days_left} days"
         )
         url = f"https://api.telegram.org/bot{token}/sendMessage"
         payload = {
