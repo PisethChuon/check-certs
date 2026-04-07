@@ -5,15 +5,16 @@ def alert(reason: str) -> None:
     print(f"ALERT: {reason}")
 
 
-def send_telegram(domain: str, days_left: int, token: str, chat_id: str) -> None:
+def send_telegram(domain: str, days_left: int, expiry_label: str, token: str, chat_id: str) -> None:
     if not token or not chat_id:
         print("Telegram config is missing. Skipping notification.")
         return
 
     try:
         message = (
-            f"SSL Expiring Soon\\n"
-            f"Domain: {domain}\\n"
+            f"SSL Expiring Soon\n"
+            f"Domain: {domain}\n"
+            f"Expires on: {expiry_label}\n"
             f"Expires in: {days_left} days"
         )
         url = f"https://api.telegram.org/bot{token}/sendMessage"
