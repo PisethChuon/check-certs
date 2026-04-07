@@ -12,7 +12,7 @@ def send_telegram(domain: str, days_left: int, expiry_label: str, token: str, ch
 
     try:
         message = (
-            f"SSL Certificate Alert\n"
+            f"🔴 SSL Certificate Alert\n"
             f"Domain: {domain}\n"
             f"Expires: {expiry_label}\n"
             f"Time left: {days_left} days"
