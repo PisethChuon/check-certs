@@ -2,7 +2,7 @@ name: Certificate Checker
 
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '30 4 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
