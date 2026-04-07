@@ -1,5 +1,6 @@
 {
     "domains": [
-        "nagaworld.com"
+        "nagaworld.com",
+        "sso.nagaworld.com"
     ]
 }
