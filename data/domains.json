@@ -1,22 +1,22 @@
 {
-    "domains": [
+  "domains": [
     "academy.nagaworld.com",
-    "sso.nagaworld.com",
-    "epass.nagaworld.com",
     "beo.nagaworld.com",
-    "noc.nagaworld.com",
-    "support.nagaworld.com",
-    "myportal.nagaworld.com",
-    "ngloyalty.nagaworld.com",
-    "noa.nagaworld.com",
-    "nao.nagaworld.com",
     "devops.nagaworld.com",
+    "epass.nagaworld.com",
     "forms.nagaworld.com",
-    "mart.nagaworld.com",
-    "nagaworld.com",
     "i-surv.nagaworld.com",
+    "mart.nagaworld.com",
+    "myportal.nagaworld.com",
+    "nagaworld.com",
+    "nao.nagaworld.com",
+    "ngloyalty.nagaworld.com",
     "nagasurvlms.nagaworld.com",
+    "noa.nagaworld.com",
+    "noc.nagaworld.com",
     "repo.nagaworld.com",
-    "uploads.nagaworld.com",
-    ]
+    "sso.nagaworld.com",
+    "support.nagaworld.com",
+    "uploads.nagaworld.com"
+  ]
 }
