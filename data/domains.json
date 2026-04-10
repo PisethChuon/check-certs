@@ -1,5 +1,22 @@
 {
     "domains": [
-        "nagaworld.com"
+    "academy.nagaworld.com",
+    "sso.nagaworld.com",
+    "epass.nagaworld.com",
+    "beo.nagaworld.com",
+    "noc.nagaworld.com",
+    "support.nagaworld.com",
+    "myportal.nagaworld.com",
+    "ngloyalty.nagaworld.com",
+    "noa.nagaworld.com",
+    "nao.nagaworld.com",
+    "devops.nagaworld.com",
+    "forms.nagaworld.com",
+    "mart.nagaworld.com",
+    "nagaworld.com",
+    "i-surv.nagaworld.com",
+    "nagasurvlms.nagaworld.com",
+    "repo.nagaworld.com",
+    "uploads.nagaworld.com",
     ]
 }
