@@ -12,9 +12,9 @@ def check_alert(domain: str, days_left: int, hours_left: float, expiry_label: st
     elif days_left <= 3:
         send_telegram(domain, days_left, expiry_label, token, chat_id)
         alert("3-day warning")
-    elif days_left <= 50:
+    elif days_left <= 10:
         send_telegram(domain, days_left, expiry_label, token, chat_id)
-        alert("50-day warning")
+        alert("10-day warning")
 
 
 def check_ssl(domain: str, token: str, chat_id: str) -> None:
