@@ -8,6 +8,7 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parents[1]
 PRIMARY_DOMAINS_FILE = BASE_DIR / "data" / "domains.json"
 LEGACY_DOMAINS_FILE = BASE_DIR / "domains.json"
+ALERT_STATE_FILE = BASE_DIR / "data" / "alert_state.json"
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
