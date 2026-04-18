@@ -2,6 +2,7 @@
   "noc.nagaworld.com": {
     "expiry": "2026-04-20T23:15:00+00:00",
     "sent_levels": [
+      "3d",
       "7d"
     ]
   }
