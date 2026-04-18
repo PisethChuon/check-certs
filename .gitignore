@@ -1,10 +1,10 @@
-.venv
-.env
-
 # Byte-compiled / optimized / DLL files
 *__pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.DS_Store
-/ssl bot future features.md
+
+# environment variable files
+.venv
+.env
